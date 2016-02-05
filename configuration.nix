@@ -44,8 +44,11 @@
     git
     linuxPackages.virtualboxGuestAdditions
     xorg.xmodmap
+    fasd
   ];
-
+  
+  programs.zsh.enable = true;
+  
   # List services that you want to enable:
 
   # Enable the OpenSSH daemon.
@@ -85,6 +88,7 @@
     createHome = true;
     description = "Gjermund Ask";
     home = "/home/dfood";
+    shell = "/run/current-system/sw/bin/zsh";
     uid = 1000;
   };
 
