@@ -37,7 +37,7 @@ URxvt.color246: #a89984
 URxvt.color248: #bdae93
 URxvt.color250: #d5c4a1
 URxvt.scrollBar: false
-URxvt.font: xft:Tewi:pixelsize=11:antialias=false 
+! URxvt.font: xft:Tewi:pixelsize=11:antialias=false 
 
 ! hard contrast: *background: #1d2021
 *background: #282828
